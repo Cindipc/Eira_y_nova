@@ -1,5 +1,17 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.netpyoung.webp",
+        "com.arloopa.unitysplats"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.arloopa.unitysplats": "https://github.com/arloopa/UnitySplats.git#main",
+    "com.netpyoung.webp": "0.3.22",
     "com.unity.ai.assistant": "2.19.0-pre.2",
     "com.unity.ai.inference": "2.6.1",
     "com.unity.ai.navigation": "2.0.14",
